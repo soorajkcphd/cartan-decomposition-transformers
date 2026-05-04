@@ -176,8 +176,6 @@ MIT License -- see [`LICENSE`](LICENSE).
 ## Contact
 
 **Sooraj K.C** (Corresponding author)
-PhD Candidate, Department of Pure and Applied Mathematics
-Alliance University, Bengaluru 562 106, India
 Email: `ksoorajPHD23@sam.alliance.edu.in`
 
 For questions about the protocol, model-specific extraction logic, or
