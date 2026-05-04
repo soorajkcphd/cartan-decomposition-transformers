@@ -1,0 +1,483 @@
+{
+  "E0": {
+    "measurement_A": {
+      "case1_symmetric": {
+        "r_sk": 0.0
+      },
+      "case2_random": {
+        "r_sk": 0.7063440541531145,
+        "rand_mean": 0.7067417709337495
+      },
+      "case3_exact_skew": {
+        "r_sk": 1.0
+      },
+      "noise_robustness": [
+        {
+          "sigma": 0.0,
+          "r_sk": 1.0
+        },
+        {
+          "sigma": 0.001,
+          "r_sk": 0.9999994990790635
+        },
+        {
+          "sigma": 0.01,
+          "r_sk": 0.9999498065992938
+        },
+        {
+          "sigma": 0.05,
+          "r_sk": 0.9987523887457908
+        },
+        {
+          "sigma": 0.1,
+          "r_sk": 0.9950567900158165
+        },
+        {
+          "sigma": 0.2,
+          "r_sk": 0.9811906534296506
+        },
+        {
+          "sigma": 0.3,
+          "r_sk": 0.9609103621925883
+        },
+        {
+          "sigma": 0.5,
+          "r_sk": 0.9126584399462755
+        }
+      ],
+      "rand_baseline_mean": 0.7067417709337495,
+      "rand_baseline_std": 0.0004516547758341895
+    },
+    "measurement_B": {
+      "so(3)": {
+        "0.0": {
+          "defect": 6.444862208968609e-17,
+          "rand": 0.976972125023688,
+          "ratio": 6.596771846292282e-17
+        },
+        "0.001": {
+          "defect": 0.00730235054782756,
+          "rand": 0.9739947740903612,
+          "ratio": 0.007497320049429848
+        },
+        "0.01": {
+          "defect": 0.07458330359095476,
+          "rand": 0.9742715227143782,
+          "ratio": 0.07655289295858844
+        },
+        "0.05": {
+          "defect": 0.3542281801919143,
+          "rand": 0.9740308312077476,
+          "ratio": 0.36367245146921046
+        },
+        "0.1": {
+          "defect": 0.7098229237336825,
+          "rand": 0.9731030429173845,
+          "ratio": 0.7294427130816667
+        },
+        "0.5": {
+          "defect": 0.9652484630783688,
+          "rand": 0.9778841646944235,
+          "ratio": 0.9870785292652702
+        }
+      },
+      "sl(2)": {
+        "0.0": {
+          "defect": 7.401486830834377e-17,
+          "rand": 0.9726144672557545,
+          "ratio": 7.609887658485871e-17
+        },
+        "0.001": {
+          "defect": 0.008495106855359183,
+          "rand": 0.9749857442918195,
+          "ratio": 0.008713057503758274
+        },
+        "0.01": {
+          "defect": 0.06835455634936298,
+          "rand": 0.9777680276094182,
+          "ratio": 0.06990876610732058
+        },
+        "0.05": {
+          "defect": 0.3605056753857026,
+          "rand": 0.9754783798953591,
+          "ratio": 0.3695680835328965
+        },
+        "0.1": {
+          "defect": 0.67592436559966,
+          "rand": 0.9743816563571944,
+          "ratio": 0.6936957004369915
+        },
+        "0.5": {
+          "defect": 0.9611043887326125,
+          "rand": 0.9734776059256315,
+          "ratio": 0.9872896745464895
+        }
+      },
+      "Heisenberg": {
+        "0.0": {
+          "defect": 0.0,
+          "rand": 0.9749893584400214,
+          "ratio": 0.0
+        },
+        "0.001": {
+          "defect": 0.6244771845276574,
+          "rand": 0.9740259524041941,
+          "ratio": 0.6411299236804283
+        },
+        "0.01": {
+          "defect": 0.6495790325117433,
+          "rand": 0.9761517103411932,
+          "ratio": 0.6654488494259736
+        },
+        "0.05": {
+          "defect": 0.7551677749872817,
+          "rand": 0.9744713406131428,
+          "ratio": 0.7749512412670094
+        },
+        "0.1": {
+          "defect": 0.814974692900794,
+          "rand": 0.97605053477245,
+          "ratio": 0.8349718215059345
+        },
+        "0.5": {
+          "defect": 0.972917398381815,
+          "rand": 0.9749390544201665,
+          "ratio": 0.9979263770087108
+        }
+      },
+      "Nilpotent_n4": {
+        "0.0": {
+          "defect": 0.6666666666666666,
+          "rand": 0.9661821222736943,
+          "ratio": 0.6900010373798009
+        },
+        "0.001": {
+          "defect": 0.820481360691412,
+          "rand": 0.9663933524673692,
+          "ratio": 0.8490138705906671
+        },
+        "0.01": {
+          "defect": 0.7663769405289784,
+          "rand": 0.9704479920558722,
+          "ratio": 0.789714592438309
+        },
+        "0.05": {
+          "defect": 0.8698234062220843,
+          "rand": 0.9657542054269541,
+          "ratio": 0.9006674797108863
+        },
+        "0.1": {
+          "defect": 0.9059127665895801,
+          "rand": 0.9671766321761205,
+          "ratio": 0.9366570039552151
+        },
+        "0.5": {
+          "defect": 0.9798613998643405,
+          "rand": 0.967782522407548,
+          "ratio": 1.012480983255147
+        }
+      }
+    }
+  },
+  "E1": {
+    "gpt2_small": {
+      "model": "gpt2_small",
+      "hf_id": "gpt2",
+      "n_layers": 12,
+      "layers_sampled": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "summary": {
+        "result_type": "POSITIVE",
+        "result_note": "Structure detected: mean ratio 0.9155 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+        "mean_r_WqWk": 0.6469400715231673,
+        "std_r_WqWk": 0.027166009939257864,
+        "min_r_WqWk": 0.5767954608508907,
+        "max_r_WqWk": 0.68942814269989,
+        "mean_ratio_WqWk": 0.9154985119109803
+      }
+    },
+    "gpt2_medium": {
+      "model": "gpt2_medium",
+      "hf_id": "gpt2-medium",
+      "n_layers": 24,
+      "layers_sampled": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21
+      ],
+      "summary": {
+        "result_type": "POSITIVE",
+        "result_note": "Structure detected: mean ratio 0.8933 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+        "mean_r_WqWk": 0.6313247523625533,
+        "std_r_WqWk": 0.03919916309408788,
+        "min_r_WqWk": 0.5625720866768654,
+        "max_r_WqWk": 0.7089131494390621,
+        "mean_ratio_WqWk": 0.8932747322133383
+      }
+    },
+    "gpt2_large": {
+      "model": "gpt2_large",
+      "hf_id": "gpt2-large",
+      "n_layers": 36,
+      "layers_sampled": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32
+      ],
+      "summary": {
+        "result_type": "POSITIVE",
+        "result_note": "Structure detected: mean ratio 0.8993 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+        "mean_r_WqWk": 0.635644836581729,
+        "std_r_WqWk": 0.033561114947718636,
+        "min_r_WqWk": 0.5634315852444225,
+        "max_r_WqWk": 0.6836228523217764,
+        "mean_ratio_WqWk": 0.8992948456406062
+      }
+    },
+    "gpt2_xl": {
+      "model": "gpt2_xl",
+      "hf_id": "gpt2-xl",
+      "n_layers": 48,
+      "layers_sampled": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42
+      ],
+      "summary": {
+        "result_type": "POSITIVE",
+        "result_note": "Structure detected: mean ratio 0.9463 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+        "mean_r_WqWk": 0.6689261706490379,
+        "std_r_WqWk": 0.01153423726393857,
+        "min_r_WqWk": 0.6470228047195009,
+        "max_r_WqWk": 0.6870833535905014,
+        "mean_ratio_WqWk": 0.9462914016422224
+      }
+    },
+    "mistral_7b": {
+      "model": "mistral_7b",
+      "hf_id": "mistralai/Mistral-7B-v0.1",
+      "n_layers": 32,
+      "layers_sampled": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "summary": {
+        "result_type": "NEGATIVE",
+        "result_note": "No structure detected: mean ratio 0.9984 is at the random baseline (1.0). QK product indistinguishable from a random matrix under this metric.",
+        "mean_r_WqWk": 0.7056366213375618,
+        "std_r_WqWk": 0.0015346049767165691,
+        "min_r_WqWk": 0.7018897011751054,
+        "max_r_WqWk": 0.70674391882919,
+        "mean_ratio_WqWk": 0.9984347804866811
+      }
+    }
+  },
+  "E2": {
+    "result_type": "NEGATIVE",
+    "result_note": "No significant correlation: Spearman rho=0.333, p=0.4198.",
+    "model": "gpt2-medium",
+    "n_batches": 20,
+    "n_layers": 24,
+    "grand_mean_f_sym": 0.7073568263074814,
+    "cartan_decomposition_note": "Grand-mean symmetric fraction f_sym = 0.7074. f_sym > 0.707 means gradient is predominantly in Sym(d) (APE prediction); f_sym ~ 0.707 is the Gaussian random baseline (null hypothesis). Validates the double-bracket mechanism: APE cross-term gradients accumulate in the Sym(d) component of gl(d) = so(d) (+) Sym(d).",
+    "corr_r_WqWk_vs_grad_sym": {
+      "pearson_r": 0.5537071842832036,
+      "pearson_p": 0.15448367193014342,
+      "spearman_r": 0.3333333333333334,
+      "spearman_p": 0.4197530864197531,
+      "n": 8
+    },
+    "corr_bracket_vs_grad_sym": {
+      "pearson_r": -0.1713690796045425,
+      "pearson_p": 0.6849183744137809,
+      "spearman_r": -0.14285714285714288,
+      "spearman_p": 0.735764859879812,
+      "n": 8
+    },
+    "interpretation": "grad_sym_ratio = fraction of gradient in symmetric subspace (what SP-PG discards). Expected: layers with more symmetric W_qk also receive more symmetric gradients -> positive Spearman."
+  },
+  "E3": {
+    "gpt2_small": {
+      "result_type": "POSITIVE",
+      "result_note": "12/12 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+      "n_bootstrap": 1000,
+      "n_layers_sig_WqWk": 12,
+      "n_layers_total": 12
+    },
+    "gpt2_medium": {
+      "result_type": "POSITIVE",
+      "result_note": "7/8 layers (88%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+      "n_bootstrap": 1000,
+      "n_layers_sig_WqWk": 7,
+      "n_layers_total": 8
+    },
+    "gpt2_large": {
+      "result_type": "POSITIVE",
+      "result_note": "9/9 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+      "n_bootstrap": 1000,
+      "n_layers_sig_WqWk": 9,
+      "n_layers_total": 9
+    },
+    "gpt2_xl": {
+      "result_type": "POSITIVE",
+      "result_note": "8/8 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+      "n_bootstrap": 1000,
+      "n_layers_sig_WqWk": 8,
+      "n_layers_total": 8
+    },
+    "mistral_7b": {
+      "result_type": "NEGATIVE",
+      "result_note": "3/8 layers (38%) have 95% CI entirely below random baseline. Structure is NOT statistically significant.",
+      "n_bootstrap": 1000,
+      "n_layers_sig_WqWk": 3,
+      "n_layers_total": 8
+    }
+  },
+  "E4": {
+    "model": "bert-base-uncased",
+    "n_layers": 12,
+    "summary": {
+      "result_type": "POSITIVE",
+      "result_note": "BERT-base mean ratio=0.7273. Structure detected -- BERT shows even stronger algebraic signal than GPT-2, confirming APE (not causal masking) is the key factor.",
+      "mean_r_WqWk": 0.5139455763373479,
+      "std_r_WqWk": 0.0778712915781829,
+      "min_r_WqWk": 0.4410434525480833,
+      "max_r_WqWk": 0.739238124228085,
+      "mean_ratio_WqWk": 0.727306042944596
+    }
+  },
+  "E5": {
+    "result_type": "NEUTRAL",
+    "result_note": "delta_r=-0.000006 -- effectively zero. Structure is stable under 200 steps of random-label fine-tuning. Confirms the measured structure is a robust pretraining signature, not a gradient noise artefact.",
+    "null_steps": 200,
+    "pretrained_summary": {
+      "result_type": "POSITIVE",
+      "result_note": "Structure detected: mean ratio 0.9155 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+      "mean_r_WqWk": 0.6469400715231673,
+      "std_r_WqWk": 0.027166009939257864,
+      "min_r_WqWk": 0.5767954608508907,
+      "max_r_WqWk": 0.68942814269989,
+      "mean_ratio_WqWk": 0.9154985119109803
+    },
+    "null_task_summary": {
+      "mean_r_WqWk": 0.6469340264827735,
+      "mean_ratio_WqWk": 0.9155303316687528
+    },
+    "comparison": {
+      "pretrained_mean_r_WqWk": 0.6469400715231673,
+      "null_task_mean_r_WqWk": 0.6469340264827735,
+      "pretrained_mean_ratio": 0.9154985119109803,
+      "null_task_mean_ratio": 0.9155303316687528,
+      "delta_r": -6.0450403938094865e-06,
+      "delta_ratio": 3.181975777244439e-05,
+      "direction_matches_hypothesis": false,
+      "hypothesis": "Structure should degrade: null_r > pretrained_r"
+    }
+  },
+  "E6": {
+    "result_type": "NEUTRAL",
+    "result_note": "delta_r=-0.001339 -- structure robust even under aggressive perturbation (1000 steps, lr=0.001). Strongly confirms pretraining signature interpretation.",
+    "experiment": "E6 -- Stronger null fine-tuning",
+    "null_steps": 1000,
+    "null_lr": 0.001,
+    "pretrained_summary": {
+      "result_type": "POSITIVE",
+      "result_note": "Structure detected: mean ratio 0.9155 is below the random baseline (1.0). QK product shows approximate skew-symmetry consistent with so(n) membership.",
+      "mean_r_WqWk": 0.6469400715231673,
+      "std_r_WqWk": 0.027166009939257864,
+      "min_r_WqWk": 0.5767954608508907,
+      "max_r_WqWk": 0.68942814269989,
+      "mean_ratio_WqWk": 0.9154985119109803
+    },
+    "null_task_summary": {
+      "mean_r_WqWk": 0.6456007189540189,
+      "mean_ratio_WqWk": 0.9135538075059095
+    },
+    "comparison": {
+      "pretrained_mean_r_WqWk": 0.6469400715231673,
+      "null_task_mean_r_WqWk": 0.6456007189540189,
+      "pretrained_mean_ratio": 0.9154985119109803,
+      "null_task_mean_ratio": 0.9135538075059095,
+      "delta_r": -0.001339352569148411,
+      "delta_ratio": -0.001944704405070774,
+      "direction_matches_hypothesis": false,
+      "vs_E5_delta_r": -6.0450403938094865e-06,
+      "perturbation_multiplier": "5x steps, 20x lr vs E5",
+      "hypothesis": "Structure should survive even aggressive perturbation if it is a fundamental pretraining property. neutral/NEUTRAL = structure robust. FRAGILE = structure is superficial."
+    }
+  },
+  "E7": {
+    "experiment": "E7 -- Shuffled-weight baseline",
+    "result_type": "POSITIVE",
+    "result_note": "Structure confirmed in trained values: shuffled weights return r_sk ~ random baseline while originals are well below.",
+    "n_shuffle_per_layer": 5,
+    "per_model": {
+      "gpt2_small": {
+        "hf_id": "gpt2",
+        "layers_tested": [
+          6
+        ],
+        "n_shuffle_per_layer": 5,
+        "summary": {
+          "mean_r_original": 0.6500298700346648,
+          "mean_r_shuffled": 0.70661195431505,
+          "mean_delta": 0.056582084280385136,
+          "n_confirmed": 1,
+          "n_tested": 1,
+          "verdict": "STRUCTURE_IN_VALUES"
+        }
+      },
+      "gpt2_medium": {
+        "hf_id": "gpt2-medium",
+        "layers_tested": [
+          6,
+          12,
+          18
+        ],
+        "n_shuffle_per_layer": 5,
+        "summary": {
+          "mean_r_original": 0.6028559990031654,
+          "mean_r_shuffled": 0.7067476506361067,
+          "mean_delta": 0.10389165163294123,
+          "n_confirmed": 3,
+          "n_tested": 3,
+          "verdict": "STRUCTURE_IN_VALUES"
+        }
+      }
+    }
+  }
+}

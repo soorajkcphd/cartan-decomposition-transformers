@@ -1,0 +1,407 @@
+{
+  "gpt2_small": {
+    "result_type": "POSITIVE",
+    "result_note": "12/12 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+    "n_bootstrap": 1000,
+    "per_layer": {
+      "0": {
+        "r_WqWk": 0.6331085851192394,
+        "r_WqWk_rand": 0.7064727631957172,
+        "ratio_WqWk": 0.8961542724667598,
+        "ratio_WqWk_ci95_lo": 0.8946547199223172,
+        "ratio_WqWk_ci95_hi": 0.8977503175590885,
+        "significant_WqWk": true
+      },
+      "1": {
+        "r_WqWk": 0.6611497283682725,
+        "r_WqWk_rand": 0.7068276540688183,
+        "ratio_WqWk": 0.9353761480077878,
+        "ratio_WqWk_ci95_lo": 0.9339337764742499,
+        "ratio_WqWk_ci95_hi": 0.9369793435276432,
+        "significant_WqWk": true
+      },
+      "2": {
+        "r_WqWk": 0.68942814269989,
+        "r_WqWk_rand": 0.7067033828864533,
+        "ratio_WqWk": 0.9755551754740376,
+        "ratio_WqWk_ci95_lo": 0.9739950047723732,
+        "ratio_WqWk_ci95_hi": 0.977064828121576,
+        "significant_WqWk": true
+      },
+      "3": {
+        "r_WqWk": 0.6726721896855067,
+        "r_WqWk_rand": 0.7067079561307225,
+        "ratio_WqWk": 0.951838993533391,
+        "ratio_WqWk_ci95_lo": 0.9498097732327924,
+        "ratio_WqWk_ci95_hi": 0.9537513980554033,
+        "significant_WqWk": true
+      },
+      "4": {
+        "r_WqWk": 0.6440199135851964,
+        "r_WqWk_rand": 0.7065961438857135,
+        "ratio_WqWk": 0.9114398927279763,
+        "ratio_WqWk_ci95_lo": 0.9098220423633692,
+        "ratio_WqWk_ci95_hi": 0.9131399415637544,
+        "significant_WqWk": true
+      },
+      "5": {
+        "r_WqWk": 0.5767954608508907,
+        "r_WqWk_rand": 0.7067933388457999,
+        "ratio_WqWk": 0.8160737080414525,
+        "ratio_WqWk_ci95_lo": 0.8146814496048633,
+        "ratio_WqWk_ci95_hi": 0.8174297042127501,
+        "significant_WqWk": true
+      },
+      "6": {
+        "r_WqWk": 0.6500298700346648,
+        "r_WqWk_rand": 0.7066935364783447,
+        "ratio_WqWk": 0.9198186151156115,
+        "ratio_WqWk_ci95_lo": 0.9185095583269988,
+        "ratio_WqWk_ci95_hi": 0.9210997319160348,
+        "significant_WqWk": true
+      },
+      "7": {
+        "r_WqWk": 0.6184795712937686,
+        "r_WqWk_rand": 0.7065590214690276,
+        "ratio_WqWk": 0.8753402794403072,
+        "ratio_WqWk_ci95_lo": 0.8738497304125445,
+        "ratio_WqWk_ci95_hi": 0.8769636628841854,
+        "significant_WqWk": true
+      },
+      "8": {
+        "r_WqWk": 0.6527810685248724,
+        "r_WqWk_rand": 0.7066768201737809,
+        "ratio_WqWk": 0.9237335227216668,
+        "ratio_WqWk_ci95_lo": 0.9222425247186203,
+        "ratio_WqWk_ci95_hi": 0.925290261794781,
+        "significant_WqWk": true
+      },
+      "9": {
+        "r_WqWk": 0.6557376762752591,
+        "r_WqWk_rand": 0.7067001973739252,
+        "ratio_WqWk": 0.927886646575109,
+        "ratio_WqWk_ci95_lo": 0.92646781769303,
+        "ratio_WqWk_ci95_hi": 0.9292585491803993,
+        "significant_WqWk": true
+      },
+      "10": {
+        "r_WqWk": 0.6576976169117422,
+        "r_WqWk_rand": 0.7065177983305818,
+        "ratio_WqWk": 0.9309002808787041,
+        "ratio_WqWk_ci95_lo": 0.9291809759259249,
+        "ratio_WqWk_ci95_hi": 0.9326105684661317,
+        "significant_WqWk": true
+      },
+      "11": {
+        "r_WqWk": 0.6513810349287068,
+        "r_WqWk_rand": 0.7065907827592527,
+        "ratio_WqWk": 0.9218646079489594,
+        "ratio_WqWk_ci95_lo": 0.9201581056643164,
+        "ratio_WqWk_ci95_hi": 0.9234562789793173,
+        "significant_WqWk": true
+      }
+    },
+    "n_layers_sig_WqWk": 12,
+    "n_layers_total": 12
+  },
+  "gpt2_medium": {
+    "result_type": "POSITIVE",
+    "result_note": "7/8 layers (88%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+    "n_bootstrap": 1000,
+    "per_layer": {
+      "0": {
+        "r_WqWk": 0.7089131494390621,
+        "r_WqWk_rand": 0.7067712230560232,
+        "ratio_WqWk": 1.003030579504606,
+        "ratio_WqWk_ci95_lo": 1.0017144768442474,
+        "ratio_WqWk_ci95_hi": 1.004301229229606,
+        "significant_WqWk": false
+      },
+      "3": {
+        "r_WqWk": 0.6469404268327642,
+        "r_WqWk_rand": 0.7066660668165485,
+        "ratio_WqWk": 0.9154825131864027,
+        "ratio_WqWk_ci95_lo": 0.9142075857353779,
+        "ratio_WqWk_ci95_hi": 0.916733938703988,
+        "significant_WqWk": true
+      },
+      "6": {
+        "r_WqWk": 0.5625720866768654,
+        "r_WqWk_rand": 0.7067447702190077,
+        "ratio_WqWk": 0.7960045979576676,
+        "ratio_WqWk_ci95_lo": 0.7948245763573921,
+        "ratio_WqWk_ci95_hi": 0.7971154108843995,
+        "significant_WqWk": true
+      },
+      "9": {
+        "r_WqWk": 0.6074310661539674,
+        "r_WqWk_rand": 0.7067117574045194,
+        "ratio_WqWk": 0.8595174196405451,
+        "ratio_WqWk_ci95_lo": 0.8583300292860871,
+        "ratio_WqWk_ci95_hi": 0.8607756099274272,
+        "significant_WqWk": true
+      },
+      "12": {
+        "r_WqWk": 0.6079965989893933,
+        "r_WqWk_rand": 0.7067912453553596,
+        "ratio_WqWk": 0.8602208968840658,
+        "ratio_WqWk_ci95_lo": 0.8590541857012286,
+        "ratio_WqWk_ci95_hi": 0.8613480577549818,
+        "significant_WqWk": true
+      },
+      "15": {
+        "r_WqWk": 0.6418884499973397,
+        "r_WqWk_rand": 0.7066658295058978,
+        "ratio_WqWk": 0.908333788328423,
+        "ratio_WqWk_ci95_lo": 0.907049282394575,
+        "ratio_WqWk_ci95_hi": 0.9096112126602831,
+        "significant_WqWk": true
+      },
+      "18": {
+        "r_WqWk": 0.6379993113432376,
+        "r_WqWk_rand": 0.7068076383389007,
+        "ratio_WqWk": 0.9026491462976086,
+        "ratio_WqWk_ci95_lo": 0.9015172624472757,
+        "ratio_WqWk_ci95_hi": 0.9038177365703143,
+        "significant_WqWk": true
+      },
+      "21": {
+        "r_WqWk": 0.6368569294677959,
+        "r_WqWk_rand": 0.7068656719228915,
+        "ratio_WqWk": 0.9009589159073883,
+        "ratio_WqWk_ci95_lo": 0.8999716455847678,
+        "ratio_WqWk_ci95_hi": 0.9018436441171626,
+        "significant_WqWk": true
+      }
+    },
+    "n_layers_sig_WqWk": 7,
+    "n_layers_total": 8
+  },
+  "gpt2_large": {
+    "result_type": "POSITIVE",
+    "result_note": "9/9 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+    "n_bootstrap": 1000,
+    "per_layer": {
+      "0": {
+        "r_WqWk": 0.5634315852444225,
+        "r_WqWk_rand": 0.706880902828733,
+        "ratio_WqWk": 0.7970672046588502,
+        "ratio_WqWk_ci95_lo": 0.7959950174514875,
+        "ratio_WqWk_ci95_hi": 0.7980557086402473,
+        "significant_WqWk": true
+      },
+      "4": {
+        "r_WqWk": 0.6836228523217764,
+        "r_WqWk_rand": 0.706783277122519,
+        "ratio_WqWk": 0.9672312212945472,
+        "ratio_WqWk_ci95_lo": 0.9663051097275118,
+        "ratio_WqWk_ci95_hi": 0.9682414608887115,
+        "significant_WqWk": true
+      },
+      "8": {
+        "r_WqWk": 0.6634969700584982,
+        "r_WqWk_rand": 0.7067367999074129,
+        "ratio_WqWk": 0.9388176335878089,
+        "ratio_WqWk_ci95_lo": 0.9378587186202914,
+        "ratio_WqWk_ci95_hi": 0.939775116167432,
+        "significant_WqWk": true
+      },
+      "12": {
+        "r_WqWk": 0.6108850375950818,
+        "r_WqWk_rand": 0.7067787355440106,
+        "ratio_WqWk": 0.8643228875934998,
+        "ratio_WqWk_ci95_lo": 0.8634282209967493,
+        "ratio_WqWk_ci95_hi": 0.8651574820710279,
+        "significant_WqWk": true
+      },
+      "16": {
+        "r_WqWk": 0.6228053447343719,
+        "r_WqWk_rand": 0.7069567063252652,
+        "ratio_WqWk": 0.8809667397763168,
+        "ratio_WqWk_ci95_lo": 0.8798553049808104,
+        "ratio_WqWk_ci95_hi": 0.8820418400696559,
+        "significant_WqWk": true
+      },
+      "20": {
+        "r_WqWk": 0.6228886579133034,
+        "r_WqWk_rand": 0.7068984798116847,
+        "ratio_WqWk": 0.8811571614629002,
+        "ratio_WqWk_ci95_lo": 0.8803384328515578,
+        "ratio_WqWk_ci95_hi": 0.8819672894103242,
+        "significant_WqWk": true
+      },
+      "24": {
+        "r_WqWk": 0.6410841318126032,
+        "r_WqWk_rand": 0.7067620138406576,
+        "ratio_WqWk": 0.9070721392181926,
+        "ratio_WqWk_ci95_lo": 0.9059963619743527,
+        "ratio_WqWk_ci95_hi": 0.908013545193302,
+        "significant_WqWk": true
+      },
+      "28": {
+        "r_WqWk": 0.6595906534516573,
+        "r_WqWk_rand": 0.7068885035082673,
+        "ratio_WqWk": 0.933090084473192,
+        "ratio_WqWk_ci95_lo": 0.9319439638997965,
+        "ratio_WqWk_ci95_hi": 0.9341700725543775,
+        "significant_WqWk": true
+      },
+      "32": {
+        "r_WqWk": 0.6529982961038464,
+        "r_WqWk_rand": 0.7067627730414446,
+        "ratio_WqWk": 0.9239285387001481,
+        "ratio_WqWk_ci95_lo": 0.9228854846350351,
+        "ratio_WqWk_ci95_hi": 0.9249416288349329,
+        "significant_WqWk": true
+      }
+    },
+    "n_layers_sig_WqWk": 9,
+    "n_layers_total": 9
+  },
+  "gpt2_xl": {
+    "result_type": "POSITIVE",
+    "result_note": "8/8 layers (100%) have 95% CI entirely below random baseline. Structure is statistically significant.",
+    "n_bootstrap": 1000,
+    "per_layer": {
+      "0": {
+        "r_WqWk": 0.6710962714637289,
+        "r_WqWk_rand": 0.7068546210277508,
+        "ratio_WqWk": 0.9494120169830254,
+        "ratio_WqWk_ci95_lo": 0.9486397739934569,
+        "ratio_WqWk_ci95_hi": 0.9502286701388779,
+        "significant_WqWk": true
+      },
+      "6": {
+        "r_WqWk": 0.6870833535905014,
+        "r_WqWk_rand": 0.7068859411482806,
+        "ratio_WqWk": 0.9719861629648321,
+        "ratio_WqWk_ci95_lo": 0.9711459436947573,
+        "ratio_WqWk_ci95_hi": 0.9728052767339292,
+        "significant_WqWk": true
+      },
+      "12": {
+        "r_WqWk": 0.6470228047195009,
+        "r_WqWk_rand": 0.7068836466521052,
+        "ratio_WqWk": 0.9153172630091059,
+        "ratio_WqWk_ci95_lo": 0.9145428175644689,
+        "ratio_WqWk_ci95_hi": 0.9161117828421333,
+        "significant_WqWk": true
+      },
+      "18": {
+        "r_WqWk": 0.6781528636512609,
+        "r_WqWk_rand": 0.7069755252906964,
+        "ratio_WqWk": 0.9592310333125265,
+        "ratio_WqWk_ci95_lo": 0.9584289025689918,
+        "ratio_WqWk_ci95_hi": 0.9599933276309283,
+        "significant_WqWk": true
+      },
+      "24": {
+        "r_WqWk": 0.6570369474613165,
+        "r_WqWk_rand": 0.7068689361005702,
+        "ratio_WqWk": 0.9295032132630541,
+        "ratio_WqWk_ci95_lo": 0.9286741690362981,
+        "ratio_WqWk_ci95_hi": 0.9302457550608022,
+        "significant_WqWk": true
+      },
+      "30": {
+        "r_WqWk": 0.6673909711009286,
+        "r_WqWk_rand": 0.7068707617843156,
+        "ratio_WqWk": 0.9441485023602754,
+        "ratio_WqWk_ci95_lo": 0.9432737313109539,
+        "ratio_WqWk_ci95_hi": 0.9450001027114896,
+        "significant_WqWk": true
+      },
+      "36": {
+        "r_WqWk": 0.6702885793506743,
+        "r_WqWk_rand": 0.7069630832610417,
+        "ratio_WqWk": 0.9481238769340017,
+        "ratio_WqWk_ci95_lo": 0.9474384040615813,
+        "ratio_WqWk_ci95_hi": 0.9487895179153069,
+        "significant_WqWk": true
+      },
+      "42": {
+        "r_WqWk": 0.6733375738543911,
+        "r_WqWk_rand": 0.7068350937796535,
+        "ratio_WqWk": 0.9526091443109574,
+        "ratio_WqWk_ci95_lo": 0.9518064020493696,
+        "ratio_WqWk_ci95_hi": 0.953382104547883,
+        "significant_WqWk": true
+      }
+    },
+    "n_layers_sig_WqWk": 8,
+    "n_layers_total": 8
+  },
+  "mistral_7b": {
+    "result_type": "NEGATIVE",
+    "result_note": "3/8 layers (38%) have 95% CI entirely below random baseline. Structure is NOT statistically significant.",
+    "n_bootstrap": 1000,
+    "per_layer": {
+      "0": {
+        "r_WqWk": 0.704855639244569,
+        "r_WqWk_rand": 0.7067471428679702,
+        "ratio_WqWk": 0.9973236487158256,
+        "ratio_WqWk_ci95_lo": 0.9959117412352788,
+        "ratio_WqWk_ci95_hi": 0.9987305889108248,
+        "significant_WqWk": true
+      },
+      "4": {
+        "r_WqWk": 0.7056450965656358,
+        "r_WqWk_rand": 0.7067739296129968,
+        "ratio_WqWk": 0.998402837173155,
+        "ratio_WqWk_ci95_lo": 0.9969362955149053,
+        "ratio_WqWk_ci95_hi": 0.9999470149471748,
+        "significant_WqWk": true
+      },
+      "8": {
+        "r_WqWk": 0.7018897011751054,
+        "r_WqWk_rand": 0.7067786206385287,
+        "ratio_WqWk": 0.9930828135986818,
+        "ratio_WqWk_ci95_lo": 0.9916793051087235,
+        "ratio_WqWk_ci95_hi": 0.9946049503678446,
+        "significant_WqWk": true
+      },
+      "12": {
+        "r_WqWk": 0.7064088447806213,
+        "r_WqWk_rand": 0.7067307134604884,
+        "ratio_WqWk": 0.9995445667299626,
+        "ratio_WqWk_ci95_lo": 0.998162091516935,
+        "ratio_WqWk_ci95_hi": 1.0009634813608925,
+        "significant_WqWk": false
+      },
+      "16": {
+        "r_WqWk": 0.7066875852245029,
+        "r_WqWk_rand": 0.7069189782970264,
+        "ratio_WqWk": 0.9996726738429332,
+        "ratio_WqWk_ci95_lo": 0.9983656430532087,
+        "ratio_WqWk_ci95_hi": 1.0011149546277427,
+        "significant_WqWk": false
+      },
+      "20": {
+        "r_WqWk": 0.7064050792285417,
+        "r_WqWk_rand": 0.7066005072548696,
+        "ratio_WqWk": 0.9997234250126891,
+        "ratio_WqWk_ci95_lo": 0.9982968635512578,
+        "ratio_WqWk_ci95_hi": 1.0011616413835007,
+        "significant_WqWk": false
+      },
+      "24": {
+        "r_WqWk": 0.7064571056523279,
+        "r_WqWk_rand": 0.7066784422946286,
+        "ratio_WqWk": 0.9996867929894931,
+        "ratio_WqWk_ci95_lo": 0.9983688254113585,
+        "ratio_WqWk_ci95_hi": 1.0011482419230788,
+        "significant_WqWk": false
+      },
+      "28": {
+        "r_WqWk": 0.70674391882919,
+        "r_WqWk_rand": 0.7067146001869276,
+        "ratio_WqWk": 1.0000414858307083,
+        "ratio_WqWk_ci95_lo": 0.9985974393272443,
+        "ratio_WqWk_ci95_hi": 1.0015002591513502,
+        "significant_WqWk": false
+      }
+    },
+    "n_layers_sig_WqWk": 3,
+    "n_layers_total": 8
+  }
+}

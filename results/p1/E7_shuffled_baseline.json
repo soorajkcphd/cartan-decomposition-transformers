@@ -1,0 +1,92 @@
+{
+  "experiment": "E7 -- Shuffled-weight baseline",
+  "result_type": "POSITIVE",
+  "result_note": "Structure confirmed in trained values: shuffled weights return r_sk ~ random baseline while originals are well below.",
+  "n_shuffle_per_layer": 5,
+  "per_model": {
+    "gpt2_small": {
+      "hf_id": "gpt2",
+      "layers_tested": [
+        6
+      ],
+      "n_shuffle_per_layer": 5,
+      "per_layer": {
+        "6": {
+          "r_original": 0.6500298700346648,
+          "r_shuffled_mean": 0.70661195431505,
+          "r_shuffled_std": 0.00039409271480826967,
+          "r_rand_baseline": 0.7066783605935241,
+          "r_rand_std": 0.000731329370329655,
+          "delta_r_shuffle": 0.056582084280385136,
+          "ratio_original": 0.9198383681774529,
+          "ratio_shuffled": 0.9999060304062256,
+          "structure_in_values": true,
+          "case": "SYMMETRIC_EXCESS"
+        }
+      },
+      "summary": {
+        "mean_r_original": 0.6500298700346648,
+        "mean_r_shuffled": 0.70661195431505,
+        "mean_delta": 0.056582084280385136,
+        "n_confirmed": 1,
+        "n_tested": 1,
+        "verdict": "STRUCTURE_IN_VALUES"
+      }
+    },
+    "gpt2_medium": {
+      "hf_id": "gpt2-medium",
+      "layers_tested": [
+        6,
+        12,
+        18
+      ],
+      "n_shuffle_per_layer": 5,
+      "per_layer": {
+        "6": {
+          "r_original": 0.5625720866768654,
+          "r_shuffled_mean": 0.7067075523882241,
+          "r_shuffled_std": 0.0004146495772185025,
+          "r_rand_baseline": 0.7067455459523315,
+          "r_rand_std": 0.0005479449520991821,
+          "delta_r_shuffle": 0.1441354657113587,
+          "ratio_original": 0.7960037242524196,
+          "ratio_shuffled": 0.9999462415230984,
+          "structure_in_values": true,
+          "case": "SYMMETRIC_EXCESS"
+        },
+        "12": {
+          "r_original": 0.6079965989893933,
+          "r_shuffled_mean": 0.7067423361025089,
+          "r_shuffled_std": 0.0002866789075482743,
+          "r_rand_baseline": 0.706660151693635,
+          "r_rand_std": 0.0004812495171520326,
+          "delta_r_shuffle": 0.09874573711311563,
+          "ratio_original": 0.8603804778467029,
+          "ratio_shuffled": 1.0001162997640052,
+          "structure_in_values": true,
+          "case": "SYMMETRIC_EXCESS"
+        },
+        "18": {
+          "r_original": 0.6379993113432376,
+          "r_shuffled_mean": 0.7067930634175871,
+          "r_shuffled_std": 0.0006426347513514583,
+          "r_rand_baseline": 0.7067855196576838,
+          "r_rand_std": 0.0004980776257933064,
+          "delta_r_shuffle": 0.06879375207434946,
+          "ratio_original": 0.9026773944834618,
+          "ratio_shuffled": 1.0000106733368095,
+          "structure_in_values": true,
+          "case": "SYMMETRIC_EXCESS"
+        }
+      },
+      "summary": {
+        "mean_r_original": 0.6028559990031654,
+        "mean_r_shuffled": 0.7067476506361067,
+        "mean_delta": 0.10389165163294123,
+        "n_confirmed": 3,
+        "n_tested": 3,
+        "verdict": "STRUCTURE_IN_VALUES"
+      }
+    }
+  }
+}
